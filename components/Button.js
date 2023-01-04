@@ -1,18 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-
-class Button extends React.Component {
-
-    clickedButton = () => {
-        onclick(alert("gotcha bitch"))
-    }
-    render() {
-        return (
-            <div>
-                <button onclick={clickedButton}>Click Me!</button>
-            </div>
-        )
-    }
-
+export default function Button() {
+	return (
+		<div>
+			<button>Click Me!</button>
+		</div>
+	)
 }
-export default Button;
